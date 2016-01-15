@@ -21,9 +21,19 @@ body {
 
 
 /*===============================FORM=================================*/
+.container p {
+  text-align: center;
+  font-size: 1.125em;
+}
+
+#highlight {
+  color: #FF7466;
+}
+
 button {
   background-color: lightgray;
   margin-left: 300px;
+  padding-top: 1px;
 }
 
 button.btn:hover {
@@ -32,8 +42,8 @@ button.btn:hover {
 }
 
 
-/*===============================USERANSWER OUTPUT=================================*/
-.col-md-4 {
+/*===================USERANSWER OUTPUT=================================*/
+.col-md-4 p {
   text-align: justify;
 }
 
