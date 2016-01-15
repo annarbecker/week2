@@ -2,19 +2,27 @@
   display: none;
 }
 
+.container {
+  width: 80%;
+}
+
 .col-md-4 {
   text-align: justify;
-  margin-left: 5px;
-  margin-right: 5px;
 }
 
 h4 {
   text-align: center;
 }
 
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 img {
-  height: 10%;
-  width: auto;
-  margin-left: 5px;
-  margin-right: 5px;
+  display: block;
+  border: 3px solid yellow;
+  max-width: 95%;
+  max-height: auto;
 }
