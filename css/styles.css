@@ -1,4 +1,3 @@
-/*===============================MAIN CONTENT=================================*/
 .jumbotron {
   text-align: center;
   background-color: #3ACCB3;
@@ -17,12 +16,19 @@ body {
   margin-top: 1px;
 }
 
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #city, #mountain, #beach, #combo {
   display: none;
 }
 
-
-/*===============================FORM=================================*/
+/*===============================
+FORM
+=================================*/
 .container p {
   text-align: center;
   font-size: 1.125em;
@@ -34,8 +40,6 @@ body {
 
 button {
   background-color: lightgray;
-  /*margin-left: 300px;*/
-  /*padding-top: 1px;*/
 }
 
 button.btn:hover {
@@ -43,8 +47,9 @@ button.btn:hover {
   background-color: #FF7466;
 }
 
-
-/*===================USERANSWER OUTPUT=================================*/
+/*===============================
+UserAnswer RESULTS
+=================================*/
 .col-md-4 p {
   text-align: justify;
 }
@@ -65,13 +70,6 @@ img.center-block{
   border-radius: 10%;
 }
 
-.center-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/*===================REDO QUIZ BUTTONS=================================*/
 button#redoCity {
   background-color: lightgray;
   padding-left: 125px;
