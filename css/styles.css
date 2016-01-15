@@ -34,8 +34,8 @@ body {
 
 button {
   background-color: lightgray;
-  margin-left: 300px;
-  padding-top: 1px;
+  /*margin-left: 300px;*/
+  /*padding-top: 1px;*/
 }
 
 button.btn:hover {
@@ -71,14 +71,47 @@ img {
   border-radius: 10%;
 }
 
-button#redoQuiz {
+/*===================REDO QUIZ BUTTONS=================================*/
+button#redoCity {
   background-color: lightgray;
   padding-left: 125px;
   padding-right: 125px;
 }
 
+button#redoCity:hover {
+  color: white;
+  background-color: #FF7466;
+}
 
-button#redoQuiz:hover {
+button#redoMtn {
+  background-color: lightgray;
+  padding-left: 125px;
+  padding-right: 125px;
+}
+
+button#redoMtn:hover {
+  color: white;
+  background-color: #FF7466;
+}
+
+button#redoBeach {
+  background-color: lightgray;
+  padding-left: 125px;
+  padding-right: 125px;
+}
+
+button#redoBeach:hover {
+  color: white;
+  background-color: #FF7466;
+}
+
+button#redoCombo {
+  background-color: lightgray;
+  padding-left: 125px;
+  padding-right: 125px;
+}
+
+button#redoCombo:hover {
   color: white;
   background-color: #FF7466;
 }

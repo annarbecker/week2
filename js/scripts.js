@@ -23,7 +23,19 @@ $(document).ready(function() {
     event.preventDefault();
   });
 
-  $('#redoQuiz').click(function() {
+  $("#redoCity").click(function() {
+    location.reload();
+  });
+
+  $("#redoMtn").click(function() {
+    location.reload();
+  });
+
+  $("#redoBeach").click(function() {
+    location.reload();
+  });
+
+  $("#redoCombo").click(function() {
     location.reload();
   });
 });
