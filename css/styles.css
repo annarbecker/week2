@@ -71,8 +71,14 @@ img {
   border-radius: 10%;
 }
 
-a {
+button#redoQuiz {
   background-color: lightgray;
-  margin-left: 300px;
-  padding-top: 1px;
+  padding-left: 125px;
+  padding-right: 125px;
+}
+
+
+button#redoQuiz:hover {
+  color: white;
+  background-color: #FF7466;
 }
