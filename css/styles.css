@@ -1,3 +1,7 @@
 #city, #mountain, #beach, #combo {
   display: none;
 }
+
+.col-md-4 {
+  text-align: center
+}
