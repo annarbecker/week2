@@ -22,4 +22,8 @@ $(document).ready(function() {
 
     event.preventDefault();
   });
+
+  $('#redoQuiz').click(function() {
+    location.reload();
+  });
 });
