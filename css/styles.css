@@ -66,7 +66,8 @@ img.center-block{
   display: block;
   max-width: 95%;
   max-height: auto;
-  margin: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   border-radius: 10%;
 }
 
