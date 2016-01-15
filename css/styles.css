@@ -1,29 +1,51 @@
-#city, #mountain, #beach, #combo {
-  display: none;
-}
+/*===============================MAIN CONTENT=================================*/
 .jumbotron {
   text-align: center;
   background-color: #3ACCB3;
   color: white;
 }
 
+body {
+  background-color: #B9FFF3;
+  font-family: 'Raleway', sans-serif;
+}
 
 .container {
   width: 80%;
-
-}
-
-body {
-  background-color: #9BFFEE;
-}
-
-.col-md-4 {
-  text-align: justify;
   background-color: white;
 }
 
-h4 {
+#city, #mountain, #beach, #combo {
+  display: none;
+}
+
+
+/*===============================FORM=================================*/
+button {
+  background-color: lightgray;
+  margin-left: 300px;
+}
+
+button.btn:hover {
+  color: white;
+  background-color: #FF7466;
+}
+
+
+/*===============================USERANSWER OUTPUT=================================*/
+.col-md-4 {
+  text-align: justify;
+}
+
+h3, h2 {
   text-align: center;
+}
+
+img {
+  display: block;
+  /*border: 3px solid yellow;*/
+  max-width: 95%;
+  max-height: auto;
 }
 
 .center-block {
@@ -31,21 +53,4 @@ h4 {
   margin-left: auto;
   margin-right: auto;
   border-radius: 10%;
-}
-
-img {
-  display: block;
-  border: 3px solid yellow;
-  max-width: 95%;
-  max-height: auto;
-}
-
-button {
-  background-color: #3B6658;
-  color: white;
-}
-
-button.btn:hover {
-  color: white;
-  font-weight: bold;
 }
