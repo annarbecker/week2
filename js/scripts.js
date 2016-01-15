@@ -38,4 +38,5 @@ $(document).ready(function() {
   $("#redoCombo").click(function() {
     location.reload();
   });
+
 });
